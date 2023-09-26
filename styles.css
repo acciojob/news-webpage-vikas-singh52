@@ -1,5 +1,37 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color:#f5f5f5;
+}
+
+
 .main{
 	display:flex;
-	justify-content:
+	justify-content:center;
+	align-items:center;
+}
+.header{
+	background-color:#011e29;
+	width:100vw;
+	color:white;
+	text-align:center;
+	padding:8px;
+}
+.latest-news-section{
+	width:200px;
+	padding:20px 5px 10px 5px;
+	text-align:center;
+	background-color:white;
+}
+
+.main-article-section{
+	width:300px;
+}
+
+.pictorial-news-section{
+	width:100px;
+}
+.pictorial-news-section>ul img{
+	width:90px;
+
 }
