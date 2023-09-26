@@ -8,7 +8,7 @@ body{
 .main{
 	display:flex;
 	justify-content:center;
-	align-items:center;
+	align-items:flex-start;
 }
 .header{
 	background-color:#011e29;
@@ -27,7 +27,7 @@ body{
 
 .main-article-section{
 	width:300px;
-	padding:20px 5px 10px 5px;
+	padding:20px 10px 10px 10px;
 	text-align:center;
 	background-color:white;
 	border-radius:15px;
@@ -45,8 +45,14 @@ body{
 .pictorial-news-section>ul {
 	list-style-type:none;
 	align-items:center;
+	
+	
 }
+.pictorial-news-section>ul li{
+	margin-left:-40px;
+}
+
 .pictorial-news-section>ul img{
-	width:120px;
+	width:100px;
 
 }
