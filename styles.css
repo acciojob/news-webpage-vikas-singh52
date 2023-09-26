@@ -22,16 +22,31 @@ body{
 	padding:20px 5px 10px 5px;
 	text-align:center;
 	background-color:white;
+	border-radius:15px;
 }
 
 .main-article-section{
 	width:300px;
+	padding:20px 5px 10px 5px;
+	text-align:center;
+	background-color:white;
+	border-radius:15px;
+	margin:0px 5px;
+	
 }
 
 .pictorial-news-section{
-	width:100px;
+	width:150px;
+	padding:20px 5px 10px 5px;
+	text-align:center;
+	background-color:white;
+	border-radius:15px;
+}
+.pictorial-news-section>ul {
+	list-style-type:none;
+	align-items:center;
 }
 .pictorial-news-section>ul img{
-	width:90px;
+	width:120px;
 
 }
